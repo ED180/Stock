@@ -2,6 +2,7 @@ package com.example.edproject.result;
 
 public enum ResultCode {
     SUCCESS(1, "SUCCESS"),
+    FAIL(0, "FAIL"),
     ;
 
     private final Integer code;
